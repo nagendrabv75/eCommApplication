@@ -9,12 +9,16 @@ import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.testng.annotations.*;
 
+import com.ecommappv5.Utilities.ReadConfig;
+
+
 public class baseClass {
 
+	ReadConfig readconfig=new ReadConfig();
 	
-	public String baseURL="http://admin-demo.nopcommerce.com/";
-	public String username="admin@yourstore.com";
-	public String password="admin";
+	public String baseURL=readconfig.getApplicationURL();
+	public String username=readconfig.getUseremail();
+	public String password=readconfig.getPassword();
 	
 	public WebDriver driver;
 	public Logger logger;
