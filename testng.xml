@@ -3,7 +3,7 @@
 <suite name="Suite">
   <test thread-count="5" name="Test">
     <classes>
-      <class name="com.ecommappv5.testCases.TC_LoginPage_001"/>
+      <class name="com.ecommappv5.testCases.TC_AddCustomerTest_003"/>
     </classes>
   </test> <!-- Test -->
 </suite> <!-- Suite -->
