@@ -44,7 +44,7 @@ public class TC_AddCustomerTest_003 extends baseClass
 		addcust.exPand();
 		
 		
-		String email = "Nag30" + "@gmail.com";
+		String email = randomestring() + "@gmail.com";
 		addcust.setEmail(email);
 				
 		addcust.setPassword("test123");
